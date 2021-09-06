@@ -1,0 +1,77 @@
+.banner-home {
+    .img-banner {
+        position: relative;
+        max-width: 100%;
+    }
+    .content-banner {
+        position: absolute;
+        top: 20%;
+        width: 100%;
+        text-align: center;
+        img {
+            max-width: 800px;
+            max-height: 130px;
+            width: 389px;
+        }
+        .btn {
+            height: 38px !important;
+        }
+    }
+    .drop {
+        a {
+            color: #212529;
+        }
+        background-color: #fff;
+    }
+    .item:focus,
+    .item:hover {
+        color: #212529;
+        background-color: #fff;
+    }
+}
+.intro {
+    h3 {
+        margin-top: 45px;
+        font-size: 28px;
+    }
+    p {
+        line-height: 1.8rem;
+        font-size: 16px;
+        text-align: justify;
+    }
+    .line-text h3 + p:first-of-type,
+    .line-text h4 + p:first-of-type {
+        margin-top: 1.5rem;
+    }
+}
+.top-content {
+    .text-app-specific {
+        img {
+            width: 48px;
+            color: #4ca69d;
+            font-size: 48px;
+        }
+    }
+    .line-text h3 + p:first-of-type,
+    .line-text h4 + p:first-of-type {
+        margin-top: 1.5rem;
+    }
+}
+.body-content {
+    p {
+        text-align: justify;
+    }
+}
+.line-text {
+    line-height: 1.8rem;
+    h3 {
+        a {
+            color: #02749c;
+        }
+    }
+}
+.download-link {
+    a:hover {
+        text-decoration: underline;
+    }
+}

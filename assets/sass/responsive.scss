@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1199.98px) {
+}
+@media only screen and (max-width: 991.98px) {
+    nav {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    footer {
+        text-align: center;
+    }
+    .topft {
+        justify-content: center;
+    }
+    footer a {
+        display: flex;
+        justify-content: center;
+    }
+    footer ul{
+        margin-bottom:20px;
+    }
+}
+@media only screen and (max-width: 767.98px) {
+    .banner-home .content-banner {
+        top: 10%;
+    }
+    header .ct{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media only screen and (max-width: 575.98px) {
+    .banner-home .img-banner img {
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 425.98px) {
+    .banner-home .content-banner img {
+        max-width: 100%;
+    }
+    .banner-home .content-banner {
+        top: 12%;
+    }
+    .act {
+        display: grid !important;
+    }
+}

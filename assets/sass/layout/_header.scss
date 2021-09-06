@@ -1,0 +1,33 @@
+header {
+    background-color: rgba(46, 107, 149, 0.9);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    .logo {
+        img {
+            width: 30px;
+        }
+    }
+}
+.drop {
+    background-color: rgba(46, 107, 149, 0.9);
+    margin-top: 7px;
+    a {
+        color: #fff;
+    }
+}
+.item:focus,
+.item:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(46, 107, 149, 0.9);
+}
+header.scrolled {
+    background-color: #4ca69d;
+    transition: background-color 200ms linear;
+}
+header.scrolled {
+    .drop {
+        background-color: #4ca69d;
+    }
+}
